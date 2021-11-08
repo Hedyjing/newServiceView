@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" type="text/css" rel="stylesheet" />
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+</head>
+<body>
+  <div class="serviceView">
+    <div>
+      <div id="ll">
+        <div id="legend">
+          <ul class="legendMsg" style="display:flex;margin: 0;background-color: #FBFBFB;
+                    padding: 8px 20px;font-size: 12px;border-bottom: 1px #dcd6d6 solid;">
+            <li style="list-style:none;">
+              <div class="legendList">
+                <img style="width: 18px;height: 18px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI1LjIuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IuWbvuWxgl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMTcgMTciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE3IDE3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0NBODFFRTt9Cjwvc3R5bGU+CjxnPgoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTE2LjYsMS42SDAuNEMwLjIsMS42LDAuMSwxLjgsMC4xLDJ2MTJjMCwwLjIsMC4yLDAuMywwLjMsMC4zSDd2MWwtMS41LDAuOWMtMC4yLDAuMS0wLjEsMC4yLDAuMSwwLjJoNS45CgkJYzAuMiwwLDAuMi0wLjEsMC4xLTAuMmwtMS41LTF2LTFoNi42YzAuMiwwLDAuMy0wLjIsMC4zLTAuM1YyQzE2LjksMS44LDE2LjgsMS42LDE2LjYsMS42eiBNMTUuNSwxMC45YzAsMC4yLTAuMiwwLjMtMC4zLDAuM0gxLjgKCQljLTAuMiwwLTAuMy0wLjItMC4zLTAuM1YzLjRDMS41LDMuMiwxLjYsMywxLjgsM2gxMy40YzAuMiwwLDAuMywwLjIsMC4zLDAuM1YxMC45eiIvPgo8L2c+Cjwvc3ZnPgo=",
+                />
+                <div style="margin-left: 6px;">Service</div>
+              </div>
+            </li>
+            <li style="list-style:none;">
+              <div class="legendList">
+                <img style="width: 18px;height: 18px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI1LjIuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IuWbvuWxgl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMTcgMTciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE3IDE3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzY3NThGODt9Cjwvc3R5bGU+CjxnPgoJPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIwLjMsMTMuOCA4LDE1LjkgOCw2LjMgMC4zLDQuMiAJIi8+Cgk8cG9seWdvbiBjbGFzcz0ic3QwIiBwb2ludHM9IjksNi4zIDksMTUuOSAxNi43LDEzLjggMTYuNyw0LjIgCSIvPgoJPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSI4LjUsMS4xIDAuMywzLjQgOC41LDUuNiAxNi43LDMuNCAJIi8+CjwvZz4KPC9zdmc+Cg==",
+                />
+                <div style="margin-left: 6px;">Component</div>
+              </div>
+            </li>
+            <li style="list-style:none;">
+              <div class="legendList">
+                <img style="width: 18px;height: 18px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI1LjIuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IuWbvuWxgl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMTcgMTciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE3IDE3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzAwQUVGRjt9Cjwvc3R5bGU+CjxnPgoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTcuMiw1LjVjMC4yLDAsMC40LDAsMC42LTAuMUw2LjksNC42QzYuNiw0LjQsNi40LDQsNi40LDMuNmMwLTAuNCwwLjEtMC44LDAuMy0xLjFDNywyLjIsNy40LDIsNy45LDIKCQljMC4zLDAsMC43LDAuMSwxLDAuM2wxLDAuOGMwLTAuMSwwLTAuMiwwLTAuMmMwLTEuNS0xLjItMi42LTIuNi0yLjZjLTEuNSwwLTIuNiwxLjItMi42LDIuNkM0LjUsNC4zLDUuNyw1LjUsNy4yLDUuNXoiLz4KCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMy4xLDQuM2MtMC41LDAtMSwwLjEtMS40LDAuM2MtMC4zLDAuMS0wLjUsMC4zLTAuOCwwLjVMOC4zLDNDOC4yLDIuOSw4LDIuOCw3LjksMi44Yy0wLjIsMC0wLjQsMC4xLTAuNSwwLjIKCQlDNy4xLDMuMyw3LjIsMy44LDcuNSw0bDIuNywyLjJDMTAsNi40LDkuOSw2LjcsOS44LDdjMCwwLjItMC4xLDAuMy0wLjEsMC41bDEuNi0wLjljMC4zLTAuMiwwLjYtMC4yLDAuOS0wLjJjMC43LDAsMS40LDAuNCwxLjcsMQoJCWMwLjUsMC45LDAuMiwyLjEtMC44LDIuNmwtMS40LDAuOGMwLjQsMC4yLDAuOCwwLjMsMS4zLDAuM2MxLjksMCwzLjQtMS41LDMuNC0zLjRTMTUsNC4zLDEzLjEsNC4zeiIvPgoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTkuMiwxMS4zbDMuNi0yYzAuNS0wLjMsMC43LTAuOSwwLjQtMS41Yy0wLjItMC40LTAuNi0wLjYtMC45LTAuNmMtMC4yLDAtMC40LDAtMC41LDAuMWwtMy42LDIKCQlDOCw5LjEsNy44LDguOSw3LjUsOC44QzYuOCw4LjIsNS45LDcuOSw0LjksNy45Yy0yLjUsMC00LjQsMi00LjQsNC40YzAsMi41LDIsNC40LDQuNCw0LjRjMi41LDAsNC40LTIsNC40LTQuNGMwLDAsMC0wLjEsMC0wLjEKCQlDOS40LDExLjksOS4zLDExLjYsOS4yLDExLjN6Ii8+CjwvZz4KPC9zdmc+Cg==",
+                />
+                <div style="margin-left: 6px;">Cluster</div>
+              </div>
+            </li>
+            <li style="list-style:none;">
+              <div class="legendList">
+                <img style="width: 18px;height: 18px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI1LjIuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IuWbvuWxgl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMTcgMTciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE3IDE3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzgxRUQxODt9Cjwvc3R5bGU+CjxnPgoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTguNSwxMi45TDguNSwxMi45Yy0yLjEsMC00LjEtMC4yLTUuNi0wLjRjLTAuNS0wLjEtMS4zLTAuMi0yLTAuNmwwLDMuMWMwLDAuOCwzLjMsMS40LDcuNSwxLjRjMCwwLDAsMCwwLjEsMAoJCWM0LjIsMCw3LjUtMC43LDcuNS0xLjVsMC0zLjFjLTAuNywwLjMtMS41LDAuNS0yLDAuNkMxMi42LDEyLjcsMTAuNiwxMi45LDguNSwxMi45eiIvPgoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTguNSw4TDguNSw4QzYuNCw4LDQuNCw3LjksMi45LDcuNkMyLjUsNy41LDEuNyw3LjQsMSw3YzAsMCwwLDAsMCwwbDAsMy4xYzAsMC44LDMuMywxLjQsNy41LDEuNAoJCWMwLDAsMCwwLDAuMSwwYzQuMiwwLDcuNS0wLjcsNy41LTEuNUwxNiw3YzAsMCwwLDAsMCwwYy0wLjcsMC4zLTEuNSwwLjUtMiwwLjZDMTIuNiw3LjksMTAuNiw4LDguNSw4eiIvPgoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTguNSw2LjhDOC41LDYuOCw4LjUsNi44LDguNSw2LjhjNC4yLDAsNy42LTAuNyw3LjYtMS41bDAtMy4xYzAtMC44LTMuMy0xLjQtNy41LTEuNGMwLDAsMCwwLTAuMSwwCgkJQzQuMywwLjgsMSwxLjQsMSwyLjJsMCwzLjFDMSw2LjEsNC4zLDYuOCw4LjUsNi44eiIvPgo8L2c+Cjwvc3ZnPgo=",
+                />
+                <div style="margin-left: 6px;">Data Center</div>
+              </div>
+            </li>
+            <li style="list-style:none;">
+              <div class="legendList">
+                <img style="width: 18px;height: 18px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI1LjIuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IuWbvuWxgl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMTcgMTciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE3IDE3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0ZGQzAwMDt9Cjwvc3R5bGU+CjxnPgoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTE0LDEuNEgyLjlMMC41LDcuOHY3LjhoMTZWNy44TDE0LDEuNHogTTIuNiw3LjJsMS41LTQuN2w4LjcsMGwxLjYsNC43SDIuNnoiLz4KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMTMuNCw2LjUgMTMuMiw1LjkgMy44LDUuOSAzLjYsNi41IAkiLz4KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMTIuNSwzLjkgMTIuMywzLjMgNC43LDMuMyA0LjUsMy45IAkiLz4KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iNC4zLDQuNSA0LDUuMiAxMyw1LjIgMTIuNyw0LjUgCSIvPgo8L2c+Cjwvc3ZnPgo=",
+                />
+                <div style="margin-left: 6px;">Pool</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div id="container" style="margin:20px"></div>
+      </div>
+      <div class="service"></div>
+      <div id="menu_tree"></div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
